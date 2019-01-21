@@ -48,6 +48,5 @@ namespace Unit.Test
             Assert.NotNull(unpaid);
             Assert.Equal(3, unpaid.AvailableEntitlement);
         }
-
     }
 }
