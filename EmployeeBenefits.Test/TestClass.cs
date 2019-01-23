@@ -12,6 +12,8 @@ namespace Unit.Test
 {
     public class InMemoryDatabaseForXmlMappings : IDisposable
     {
+        // Combined commit
+
         protected Configuration config;
         protected ISessionFactory sessionFactory;
         public ISession Session;
